@@ -1,0 +1,24 @@
+\\Uso do While
+var result = 1;
+var counter = 0;
+
+while (counter < 10) {
+  result = result * 2;
+  counter = counter + 1;
+  console.log(result);
+} 
+
+\\Uso do For
+var resultado = 0;
+for (var i = 0; i < 5; i++){
+  resultado = resultado + 1;
+  console.log(resultado);
+}
+
+\\Uso do If Else
+var variavel = 10;
+if (!isNaN(variavel)) {
+    console.log('a variavel é um número');
+}else {
+    console.log('a variavel não é um número');
+}
